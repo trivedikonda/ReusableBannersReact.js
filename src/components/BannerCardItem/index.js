@@ -2,8 +2,8 @@
 import './index.css'
 
 const BannerCardItem = props => {
-  const {bannerCardsList} = props
-  const {headerText, description, className} = bannerCardsList
+  const {bannerDetails} = props
+  const {headerText, description, className} = bannerDetails
   return (
     <li className={`${className} banner-card-item`}>
       <div>
